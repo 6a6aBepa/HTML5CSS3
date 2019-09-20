@@ -121,5 +121,12 @@ body {
   margin-right: 64px;
   margin-bottom: 35px;
   letter-spacing: -0.01px;
-  list-style-image: url("img/3-layers.png");
+  list-style: none;
 }
+.pluses li:before{
+content: "";
+width: 32px;
+height: 32px;
+background: url("img/3-layers.png") 20px 10px;
+}
+/* HACK: i cant use pull request */
