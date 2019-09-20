@@ -146,25 +146,28 @@ body {
   color: #445161;
   margin-bottom: 35px;
 }
+
 .scrinshots article {
   width: 574px;
   float: left;
   margin-right: 16px;
   margin-bottom: 30px;
 }
-.scrinshots article:nth-child(odd){
+
+.scrinshots article:nth-child(odd) {
   margin-right: 0px;
 }
-.scrinshots article:nth-last-child(-n+2){
+
+.scrinshots article:nth-last-child(-n+2) {
   margin-bottom: 0px;
 }
+
 .scrinshots h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
   color: #445161;
 }
-
 
 .scrinshots img {
   width: 200px;
@@ -182,4 +185,38 @@ body {
   line-height: 24px;
   color: #333333;
   letter-spacing: -0.01px;
+}
+
+/*style for reviews section*/
+.reviews {
+  background-color: #f5f5f5;
+}
+
+.reviews>h2 {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.comment-box {
+  width: 574px;
+  height: 121px;
+  float: left;
+}
+
+.comment-box>img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-color: #445161;
+  float: left;
+  border-radius: 50%;
+}
+
+.reviews-text {
+  float: none;
+  display: inline;
 }
