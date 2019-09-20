@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.clearfix::after{
+  content: " ";
+  clear: both;
+  display: block;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -97,7 +103,7 @@ body {
 /*design for pluses panel*/
 .pluses {
   clear: both;
-  height: 317px;
+
   background-color: #f5f5f5;
 }
 
@@ -118,15 +124,22 @@ body {
   font-weight: 400;
   line-height: 22px;
   color: #333333;
-  margin-right: 64px;
+
   margin-bottom: 35px;
   letter-spacing: -0.01px;
   list-style: none;
+  padding-left: 41px;
+  background: url("img/3-layers.png") no-repeat;
+}
+.pluses li:nth-child(odd){
+  margin-right: 23px;
+}
+.pluses li:nth-child(n+5){
+  margin-bottom: 0px;
 }
 .pluses li:before{
 content: "";
 width: 32px;
 height: 32px;
-background: url("img/3-layers.png") 20px 10px;
 }
 /* HACK: i cant use pull request */
