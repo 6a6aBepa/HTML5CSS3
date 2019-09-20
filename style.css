@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.clearfix::after{
+.clearfix::after {
   content: " ";
   clear: both;
   display: block;
@@ -69,7 +69,7 @@ body {
   position: relative;
 }
 
-.about-product h2, p {
+.about-product>h2, p {
   float: left;
   clear: both;
 }
@@ -102,8 +102,6 @@ body {
 
 /*design for pluses panel*/
 .pluses {
-  clear: both;
-
   background-color: #f5f5f5;
 }
 
@@ -124,22 +122,64 @@ body {
   font-weight: 400;
   line-height: 22px;
   color: #333333;
-
   margin-bottom: 35px;
   letter-spacing: -0.01px;
   list-style: none;
   padding-left: 41px;
-  background: url("img/3-layers.png") no-repeat;
+  background: url("img/3-layers.png") no-repeat 0 5px;
 }
-.pluses li:nth-child(odd){
+
+.pluses li:nth-child(odd) {
   margin-right: 23px;
 }
-.pluses li:nth-child(n+5){
+
+.pluses li:nth-child(n+5) {
   margin-bottom: 0px;
 }
-.pluses li:before{
-content: "";
-width: 32px;
-height: 32px;
+
+/*style for scrinshots section*/
+.scrinshots>h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #445161;
+  margin-bottom: 35px;
 }
-/* HACK: i cant use pull request */
+.scrinshots article {
+  width: 574px;
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 30px;
+}
+.scrinshots article:nth-child(odd){
+  margin-right: 0px;
+}
+.scrinshots article:nth-last-child(-n+2){
+  margin-bottom: 0px;
+}
+.scrinshots h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #445161;
+}
+
+
+.scrinshots img {
+  width: 200px;
+  height: 150px;
+  background: #445161;
+  float: left;
+  margin-right: 15px;
+}
+
+.scrin-text {
+  float: none;
+  clear: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  letter-spacing: -0.01px;
+}
