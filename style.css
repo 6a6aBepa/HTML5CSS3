@@ -184,7 +184,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #333333;
-  letter-spacing: -0.01px;
+  letter-spacing: -0.1px;
 }
 
 /*style for reviews section*/
@@ -263,4 +263,101 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
+}
+
+/*style for buy-it section*/
+.buy-it {
+  padding-left: 145px;
+  padding-right: 145px;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buy-it h2 {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.flex-section>div>h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
+}
+
+.cost-panel {
+  width: 296px;
+  height: 69px;
+  background-color: #fff;
+  border: 2px solid #445162;
+  margin-top: 16px;
+  margin-bottom: 19px;
+}
+
+.cost {
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 69px;
+  text-align: center;
+  float: none;
+}
+
+.flex-section>div {
+  background-color: #445161;
+  margin-top: 16px;
+  width: 300px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.flex-section>div ol {
+  position: absolute;
+  left: 44px;
+}
+
+.flex-section>div>ol li {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+
+}
+
+.small-buy-it {
+  height: 306px;
+}
+
+.midle-buy-it {
+  height: 404px;
+}
+
+.large-buy-it {
+  height: 499px;
+}
+
+.flex-section>div a {
+  display: block;
+  width: 260px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #445161;
+  left: 20px;
+  bottom: 20px;
+  border-radius: 5px;
 }
