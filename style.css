@@ -62,6 +62,11 @@ body {
   bottom: 93px;
 }
 
+.header-img img {
+  width: 469px;
+  height: 214px;
+}
+
 /*Design for "about" panel*/
 .about-product {
   color: #445161;
@@ -99,6 +104,10 @@ body {
   right: 50px;
   background-color: #445161;
 }
+.about-img img{
+  width: 430px;
+  height: 245px;
+}
 
 /*design for pluses panel*/
 .pluses {
@@ -116,7 +125,6 @@ body {
 
 .pluses li {
   width: 526px;
-  height: 63px;
   float: left;
   font-size: 16px;
   font-weight: 400;
@@ -242,7 +250,6 @@ body {
 .reviews-text {
   padding: 16px 20px 16px 16px;
   width: 436px;
-  height: 89px;
   background-color: #ebebeb;
   float: left;
   display: inline;
@@ -329,7 +336,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 23px;
-
 }
 
 .small-buy-it {
@@ -360,4 +366,169 @@ body {
   left: 20px;
   bottom: 20px;
   border-radius: 5px;
+}
+
+/*style for footer*/
+.general-footer {
+  background-color: #445161;
+  padding-left: 249px;
+  padding-right: 246px;
+}
+
+.general-footer h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.back-feed {
+  float: left;
+  width: 500px;
+  margin-right: 45px;
+}
+
+.back-feed>input {
+  width: 476px;
+  height: 8px;
+  border-radius: 5px;
+  margin-bottom: 21px;
+  padding: 13px 10px;
+  color: #445162;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+textarea[name="message"] {
+  width: 478px;
+  height: 142px;
+  margin-bottom: 21px;
+  padding: 13px 10px;
+  border-radius: 5px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+input[type="button"] {
+  width: 140px;
+  height: 40px;
+  padding: 12px 0px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-left: 180px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.contact-me {
+  float: left;
+}
+
+.contact-me li {
+  list-style-type: none;
+  padding-left: 31px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
+.contact-me li:nth-child(1) {
+  background: url("img/skype_icon.png") no-repeat;
+}
+
+.contact-me li:nth-child(2) {
+  background: url("img/icq_icon.png") no-repeat;
+}
+
+.contact-me li:nth-child(3) {
+  background: url("img/email_icon.png") no-repeat;
+}
+
+.contact-me li:nth-child(4) {
+  background: url("img/phone_icon.png") no-repeat;
+  margin-bottom: 32px;
+}
+
+.contact-me a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.social-me {
+  width: 240px;
+  height: 42px;
+  float: left;
+}
+
+.tweet {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin-right: 7.5px;
+  border-radius: 50px;
+  background: url("img/social_buttons.png") no-repeat -1px;
+}
+
+.fb {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  margin-right: 7.5px;
+  background: url("img/social_buttons.png") 190px 0px;
+}
+
+.in {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  margin-right: 7.5px;
+  background: url("img/social_buttons.png") 141px 0px;
+}
+
+.gplus {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  margin-right: 7.5px;
+  background: url("img/social_buttons.png") 91px 0px;
+}
+
+.yt {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  background: url("img/social_buttons.png") 42px 0px;
+}
+
+.copyright {
+  height: 26px;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: 16px;
+  float: none;
 }
