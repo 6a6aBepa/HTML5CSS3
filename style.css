@@ -13,11 +13,14 @@
 body {
   font-family: Arial, sans-serif;
 }
+@media (min-width: 1320px) {
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
+}
+
 
 .padding-site {
   padding: 50px;
@@ -25,8 +28,6 @@ body {
 
 /*header style*/
 .general-header {
-  min-height: 223px;
-  min-width: 1180px;
   background: #445161;
 }
 
@@ -54,12 +55,12 @@ body {
 }
 
 .header-img {
-  float: right;
   width: 469px;
   height: 214px;
   background-color: #ffffff;
   position: relative;
-  bottom: 93px;
+  padding: 0px;
+  float: none;
 }
 
 .header-img img {
@@ -70,13 +71,11 @@ body {
 /*Design for "about" panel*/
 .about-product {
   color: #445161;
-  height: 245px;
   position: relative;
 }
 
-.about-product>h2, p {
-  float: left;
-  clear: both;
+.about-product>h2{
+  text-align: center;
 }
 
 .about-product h2 {
@@ -87,7 +86,7 @@ body {
 }
 
 .about-product p {
-  width: 649px;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -100,9 +99,8 @@ body {
   float: right;
   width: 430px;
   height: 245px;
-  position: absolute;
-  right: 50px;
   background-color: #445161;
+  padding: 0px;
 }
 .about-img img{
   width: 430px;
@@ -123,8 +121,7 @@ body {
   margin-bottom: 29px;
 }
 
-.pluses li {
-  width: 526px;
+.li {
   float: left;
   font-size: 16px;
   font-weight: 400;
@@ -137,11 +134,7 @@ body {
   background: url("img/3-layers.png") no-repeat 0 5px;
 }
 
-.pluses li:nth-child(odd) {
-  margin-right: 23px;
-}
-
-.pluses li:nth-child(n+5) {
+.li:nth-child(n+5) {
   margin-bottom: 0px;
 }
 
@@ -152,26 +145,16 @@ body {
   font-weight: 400;
   line-height: 36px;
   color: #445161;
-  margin-bottom: 35px;
 }
 
 .scrinshots article {
-  width: 574px;
+
   float: left;
-  margin-right: 16px;
-  margin-bottom: 30px;
+
 }
 
 
-.scrinshots article:nth-child(odd) {
-  margin-right: 0px;
-}
-
-.scrinshots article:nth-last-child(-n+2) {
-  margin-bottom: 0px;
-}
-
-.scrinshots>article h2 {
+.scrinshots h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -211,16 +194,11 @@ body {
 }
 
 .comment-box {
-  width: 574px;
-  height: 121px;
   float: left;
   margin-bottom: 24px;
   position: relative;
 }
 
-.comment-box:nth-child(even) {
-  margin-right: 32px;
-}
 
 .comment-box:nth-last-child(-n+2) {
   margin-bottom: 0px;
